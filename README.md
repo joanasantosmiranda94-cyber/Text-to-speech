@@ -10,13 +10,13 @@ This project reads PDFs, cleans the text, splits it into manageable chunks, and 
 	Run the script: python main.py
 	The audio files will be saved in data/output_audio/.
 
-###Tech Stack:
+## Tech Stack:
 	•	Python 3
 	•	Google Cloud Text-to-Speech API
 	•	pdfplumber
 	•	Regex (for text cleaning and chunking)
 
-####Project Structure:
+## Project Structure:
 
 app/
 pdf_reader.py
