@@ -5,14 +5,10 @@ This project reads PDFs, cleans the text, splits it into manageable chunks, and 
 
 ---
 ## How to use:
-	1	Place your PDF file in data/input_pdfs/.
-	2	Set the environment variable for your Google Cloud credentials:
-
-export GOOGLE_APPLICATION_CREDENTIALS=”/path/to/credentials.json”
-	3	Run the script:
-
-python main.py
-	4	The audio files will be saved in data/output_audio/.
+	Place your PDF file in data/input_pdfs/.
+	Set the environment variable for your Google Cloud credentials: export GOOGLE_APPLICATION_CREDENTIALS=”/path/to/credentials.json”
+	Run the script: python main.py
+	The audio files will be saved in data/output_audio/.
 
 ##Tech Stack:
 	•	Python 3
