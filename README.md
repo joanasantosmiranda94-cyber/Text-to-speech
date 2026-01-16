@@ -4,23 +4,23 @@ Converts PDF files into audiobooks using **Python** and **Google Cloud Text-to-S
 This project reads PDFs, cleans the text, splits it into manageable chunks, and generates MP3 audio files.
 
 ---
-# How to use:
-	1.	Place your PDF file in data/input_pdfs/.
-	2.	Set the environment variable for your Google Cloud credentials:
+## How to use:
+	1	Place your PDF file in data/input_pdfs/.
+	2	Set the environment variable for your Google Cloud credentials:
 
 export GOOGLE_APPLICATION_CREDENTIALS=”/path/to/credentials.json”
-	3.	Run the script:
+	3	Run the script:
 
 python main.py
-	4.	The audio files will be saved in data/output_audio/.
+	4	The audio files will be saved in data/output_audio/.
 
-#Tech Stack:
+##Tech Stack:
 	•	Python 3
 	•	Google Cloud Text-to-Speech API
 	•	pdfplumber
 	•	Regex (for text cleaning and chunking)
 
-Project Structure:
+##Project Structure:
 
 app/
 pdf_reader.py
