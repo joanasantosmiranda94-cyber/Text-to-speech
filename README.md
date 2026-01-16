@@ -25,6 +25,5 @@ text_chunker.py
 data/
 input_pdfs/
 output_audio/
-credentials/  (do NOT push to GitHub)
 main.py
 README.txt
